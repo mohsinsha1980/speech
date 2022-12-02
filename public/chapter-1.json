@@ -1,0 +1,101 @@
+[
+  {
+    "id": "A0",
+    "type": "Opener",
+    "text": "Hey, Jack, this is Luka from rhetora, do you have 60 seconds?",
+    "tags": ["Opener"],
+    "next": ["B1", "B2", "B3"],
+    "isEnd": false,
+    "isHost": false
+  },
+  {
+    "id": "B1",
+    "type": "Objection",
+    "text": "sorry I don't have time at the moment",
+    "tags": [],
+    "next": ["C1"],
+    "isEnd": false,
+    "isHost": true
+  },
+  {
+    "id": "B2",
+    "type": "Question",
+    "text": "What is rhetora?",
+    "tags": [],
+    "next": ["C2"],
+    "isEnd": false,
+    "isHost": true
+  },
+  {
+    "id": "B3",
+    "type": "Answer",
+    "text": "Yes I do have a few minutes",
+    "tags": [],
+    "next": ["C2"],
+    "isEnd": false,
+    "isHost": true
+  },
+  {
+    "id": "C1",
+    "type": "Objection",
+    "text": "May I call you at this time tomorrow",
+    "tags": ["Needs Work"],
+    "next": ["D1"],
+    "isEnd": false,
+    "isHost": false
+  },
+  {
+    "id": "C2",
+    "type": "Rebuttal",
+    "text": "Are you familiar with conversation coaches?",
+    "tags": ["Pitch"],
+    "next": ["D2", "D3"],
+    "isEnd": false,
+    "isHost": true
+  },
+  {
+    "id": "D1",
+    "type": "Objection",
+    "text": "Why are you calling me?",
+    "tags": [],
+    "next": ["C2"],
+    "isEnd": false,
+    "isHost": true
+  },
+  {
+    "id": "D2",
+    "type": "Answer",
+    "text": "Yes I am familiar",
+    "tags": [],
+    "next": ["E2"],
+    "isEnd": false,
+    "isHost": false
+  },
+  {
+    "id": "D3",
+    "type": "Answer",
+    "text": "No, never heard of them",
+    "tags": [],
+    "next": ["E3"],
+    "isEnd": false,
+    "isHost": false
+  },
+  {
+    "id": "E2",
+    "type": "Response",
+    "text": "Perfect, well we are using AI conversation coaches to allow your reps to practice cold calling without having to actually do cold calls",
+    "tags": [],
+    "next": [],
+    "isEnd": true,
+    "isHost": true
+  },
+  {
+    "id": "E3",
+    "type": "Response",
+    "text": "Essentially AI conversation coaches are like authentic humans, we utilize them to provide sales reps with an offline partner to practice doing cold calls.",
+    "tags": [],
+    "next": [],
+    "isEnd": true,
+    "isHost": true
+  }
+]

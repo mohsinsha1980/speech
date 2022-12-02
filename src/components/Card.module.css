@@ -1,0 +1,31 @@
+.card {
+  background-color: #fff;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+
+.card .type {
+  background-color: #b9e2c6;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+.card .tag {
+  font-size: 0.7em;
+  background-color: #cdc9c3;
+  display: inline-block;
+  margin: 0 10px 5px;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+.card .content {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
